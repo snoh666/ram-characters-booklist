@@ -1,7 +1,4 @@
 <template>
-  <h1>
-    Hello Vue application
-  </h1>
   <Planets />
 </template>
 
