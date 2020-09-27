@@ -3,8 +3,8 @@
     <h1>
       Rick and morty planets
     </h1>
-    <ul v-if="locations.length > 0">
-      <li v-for="{id, name, residents} in locations" :key="id">
+    <ul v-if="locations?.length > 0">
+      <li v-for="{id, name, residents} in locations" v-bind:key="id">
         <Planet
             v-bind:name="name"
             v-bind:residents="residents"
