@@ -42,5 +42,10 @@ export default {
 </script>
 
 <style scoped>
-
+  h1 {
+    margin: 1rem .25rem;
+  }
+  ul {
+    list-style: none;
+  }
 </style>
