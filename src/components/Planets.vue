@@ -27,10 +27,10 @@ export default {
     locations: [],
   }),
   created () {
-    this.fetchLocations();
+    this.getLocations();
   },
   methods: {
-    fetchLocations: async () => {
+    getLocations: async function () {
       const response = await fetch("https://rickandmortyapi.com/api/location", {
         method: "GET",
       });
