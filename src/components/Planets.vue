@@ -17,6 +17,7 @@
 
 <script>
 import Planet from "./Planet";
+
 export default {
   name: "Planets",
   components: {
